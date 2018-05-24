@@ -8,6 +8,7 @@
 	opacity: .7;
 	color: black;
 	font-weight: bold;
+	margin-top: 15px;
 
 }
 
@@ -54,8 +55,11 @@
 .navbar {
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
-    bottom: 0; /* Position the navbar at the top of the page */
+    top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    background-color: gray;
+    opacity: 0.7;
+    z-index: 999;
 }
 
 /* Links inside the navbar */
@@ -66,7 +70,7 @@
     text-decoration: none;
     z-index: 1;
     font-family: 'Julius Sans One', sans-serif;
-    padding: 30px 0 30px 0;
+    padding: 10px 0 10px 0;
     color: black;
  }  
 
@@ -85,40 +89,31 @@ p {
 	font-size: 20px;
 
 }
-.center {
-    float: left;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    height: 30%;
+.profile-img {
+	margin-top: 10px;
+    width: 100%;
+    height: auto;
     opacity: .8;
     border-radius: 80px;
-
-    
 }
-#about {
+.about {
 	color: black;
-	background-color:#7E996F;
-	text-align:center;
-	padding:50px 80px;
-	text-align: justify;
-	min-height: 600px;
+	min-height: 100px;
 	background-size: 100%;
 	border-radius: 50px;
 }
+.about-container{
+	background-color:#7E996F;
+}
 .aboutmestuff {
 	background: gray;
-	border-radius: 30px;
-	width: 60%;
+	border-radius: 50px;
+	width: 100%;
+	height: auto;
 	text-align: center;
-	display: block;
-	margin-left: auto;
-    margin-right: auto;
-    float: right;
     font-size: 18px;
     opacity: .7;
-
+	padding: 10px;
 }
 .container1 {
 	background-color:#7FA292;
@@ -127,6 +122,7 @@ p {
 }
 
 footer {
+	text-align: center;
 	background-color: #6A5C55;
 	position: fixed;
 	right: 0;
@@ -136,9 +132,10 @@ footer {
 	width: 100%;
 	font-weight: bold;
 	color: white;
-	height: 3rem;
+	height: 1rem;
 	padding: 2rem;
 	font-family: 'Julius Sans One', sans-serif; 
+	opacity: .6;
 }
 #footer {
 	text-align: center!important;
