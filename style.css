@@ -1,4 +1,6 @@
-
+body {
+	background-color: #475647;
+}
 
 #name{
 	font-family: 'Julius Sans One', sans-serif;
@@ -6,50 +8,52 @@
 	font-weight: 100;
 	font-size: 50px;
 	opacity: .7;
-	color: black;
+	color: white;
 	font-weight: bold;
 	margin-top: 15px;
 
+}
+#mainname {
+	color: black;
+	font-family: 'Julius Sans One', sans-serif;
+	margin-top: 15px;
+	font-size: 80px;
 }
 
 #subheader {
 	font-family: 'Julius Sans One', sans-serif;
 	text-align: left;
-	font-size: 25px;
+	font-size: 40px;
 	font-weight: bold;
 
 
 }
 .bgimg-1, .bgimg-2, .bgimg-3 {
-    /* The image used */
-  	position: relative;
   	opacity: .9;
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    /*background-position: center;*/
     background-repeat: no-repeat;
     background-size: cover;
     
 }
 .bgimg-1 {
 	background-image: url("forest.jpg");
-	min-height: 700px;
+	min-height: 900px;
 }
 .bgimg-2 {
 	background-image: url("project1.png");
-	margin-bottom: 100px;
-	background-size: 1000px;
-	min-height: 500px;
+	/*margin-bottom: 100px;
+	background-size: 1000px;*/
+	min-height: 800px;
 	width: 100%;
 	
 
 }
 .bgimg-3 {
 	background-image: url("project2.png");
-	margin-bottom: 100px;
-	background-size: 1000px;
-	min-height: 800px;
+	min-height: 1000px;
 	width: 100%;
+	/*background-position: 0px 50px;*/
 }
 
 .navbar {
@@ -87,10 +91,22 @@ p {
 	text-align: center;
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 20px;
+	background-color: gray;
 
+}
+a {
+	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 20px;
+	color: white;
+
+}
+a hover: {
+	color: #6A5C55;
 }
 .profile-img {
 	margin-top: 10px;
+	margin-bottom: 10px;
     width: 100%;
     height: auto;
     opacity: .8;
@@ -103,10 +119,13 @@ p {
 	border-radius: 50px;
 }
 .about-container{
-	background-color:#7E996F;
+	background-color: #A0998D;
+	border-radius: 20px;
+	margin-top: 20px;
+
 }
 .aboutmestuff {
-	background: gray;
+	background: white;
 	border-radius: 50px;
 	width: 100%;
 	height: auto;
@@ -114,11 +133,6 @@ p {
     font-size: 18px;
     opacity: .7;
 	padding: 10px;
-}
-.container1 {
-	background-color:#7FA292;
-	min-height: 800px;
-
 }
 
 footer {
