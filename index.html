@@ -7,13 +7,14 @@
         <title>Portfolio</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		    <script src="app.js"></script>
-  		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="app.js"></script>
+  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  		  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-       	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+       	<link href="https://fonts.googleapis.com/css?family=Amaranth|Cinzel|Old+Standard+TT" rel="stylesheet">
        	<link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
@@ -31,47 +32,65 @@
 			   <h1 id="header">Alex Smith</h1> 
 			   <p id="subheader">Full Stack Developer</p> 
 		</div>
-    <div class="section" id="about">
-    <div class="flex-grid nowrap">
-      <div class="about-item headshot transition">
-        <img src="alexsmith.jpg" id="me">
-      </div>
-      <div class="about-item summary transition">
-        <h2>I'm a Seattle-based, Full Stack Web Developer with a Front-End focus and passion for design</h2>
-        <hr>
-        <p>
-        <p>When I’m not coding, you can find me practicing photography and tending to my growing collection of .</p>
-      </div>
-    </div>
-      <div class="section" id="featured-projects">
-      <h2>Featured Projects</h2>
-      <hr>
-      <div class="flex-grid">
-        <div class="project-item project1"><a href="project1.html" alt="Road Trip Race"></a>
-          <div class="portfolio-text">
-            <h3>Road Trip Race</h3>
-            <h5>jQuery | CSS | Bootstrap | Javascript</h5>
-          </div>
-        </div>
-        <div class="project-item project2"><a href="project2.html" alt="Wanderer"></a>
-          <div class="portfolio-text">
-            <h3>Wanderer</h3>
-            <h5>Node | MongoDB | Express | jQuery </h5>
-          </div>
-        </div>
-        <div class="project-item project3">
-          <a href="project3.html" alt="Mentor Space"></a>
-          <div class="portfolio-text">
-            <h3>Mentor Space</h3>
-            <h5>React | MongoDB | Node | Materialize </h5>
-          </div>
-        </div>
-        <div class="project-item project4">
-          <a href="project4.html" alt="Trekmate"></a>
-          <div class="portfolio-text">
-            <h3>Trekmate</h3>
-            <h5>Python | Materialize | Django | </h5>
-          </div>
-        </div>
-      </div>
-    </div>
+	    <div class="section" id="about">
+		    <div class="flex-grid nowrap">
+		      <div class="about-item headshot transition">
+		      	<img src="alexsmith.jpg" id="me">
+		      </div>
+		      <div class="about-item summary transition">
+		        <h2>Seattle-based, Full Stack Web Developer with a Front-End focus and passion for design.</h2>
+		        <hr>
+		        <p>
+		        <p>When I’m not working on projects, you can find me actively exploring the outdoors, watching live music or planning my next adventure!</p>
+		      </div>
+		    </div>
+		      <div class="section" id="featured-projects">
+		      <h2>Projects</h2>
+		      <hr>
+		      <div class="flex-grid">
+		        <div class="project-item project1"><a href="project1.html" alt="Road Trip Race"></a>
+		          <div class="portfolio-text">
+		            <h3 id="roadtripheader">Road Trip Race</h3>
+		            <h5>jQuery | CSS | Bootstrap | Javascript</h5>
+		          </div>
+		        </div>
+		        <div class="project-item project2"><a href="project2.html" alt="Wanderer"></a>
+		          <div class="portfolio-text">
+		            <h3 id="wandererheader">Wanderer</h3>
+		            <h5>Node | MongoDB | Express | jQuery </h5>
+		          </div>
+		        </div>
+		        <div class="project-item project3">
+		          <a href="project3.html" alt="Mentor Space"></a>
+		          <div class="portfolio-text">
+		            <h3 id="mentorspaceheader">Mentor Space</h3>
+		            <h5>React | MongoDB | Node | Materialize </h5>
+		          </div>
+		        </div>
+		        <div class="project-item project4">
+		          <a href="project4.html" alt="Trekmate"></a>
+		          <div class="portfolio-text">
+		            <h3 id="trekmateheader">Trekmate</h3>
+		            <h5>Python | Materialize | Django | </h5>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		    <footer id="contact">
+				<div class="footer-content">
+					<h4>Let's get in touch!</h4>
+					<p><a href="https://github.com/smithalex24" class="fa fa-github fa-lg"> <span class="icon-label">alexsmith24</span></a></p>
+					<p><a href="https://www.linkedin.com/in/alex-smith24/" class="fa fa-linkedin fa-lg"><span class="icon-label"> alex-smith24</span></a></p>
+					<p><a href="mailto:smith25243@gmail.com" class="fa fa-envelope fa-lg"> <span class="icon-label">smith25243@gmail.com</span></a></p>
+					<p><a href="img/Jacquelyn_Marcella_Resume.pdf" target="_blank"><i class="fas fa-file-alt fa-lg"></i> <span class="icon-label">Download Resume</span></a></p>
+				</div>	
+			</footer>
+
+		    
+			          
+			          
+			          
+			       
+
+ </body>
+ </html>

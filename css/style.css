@@ -1,8 +1,8 @@
 body {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Amaranth', sans-serif;
 	margin: 0;
 	padding: 0;
-	background:#6A5C55;
+	background:#5F5C58;
 }
 #me {
 	height: 25%;
@@ -34,10 +34,12 @@ hr {
   	-webkit-animation-iteration-count: 1;
 }
 .jumbotron h1 {
-	font-size: 120px;
+	font-size: 200px;
 	font-weight: bold;
-	color: #8A887E;
-	opacity: .9;
+	color: white;
+	opacity: .8;
+	margin-top: 15%;
+	letter-spacing: 8px;
 }
 .jumbotron p {
 	color: white;
@@ -57,7 +59,7 @@ hr {
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Amaranth', sans-serif;
 	justify-content: space-between;
 	font-size: 20px;
 }
@@ -123,10 +125,13 @@ div.section, .portfolio-images {
 }
 
 .about-item {
-	transition: all 2s;
 	margin: 15px;
 	flex-grow: 1;
 	align-self: top;
+}
+.about-item h2 {
+	color: white;
+	opacity: .7;
 }
 
 .about-item h5 {
@@ -174,8 +179,50 @@ li {
     border-radius: 30px;
 }
 /*Portfolio Items*/
+
 #featured-projects h2, #featured-projects hr {
 	margin-left: 15px;
+}
+#featured-projects h2 {
+	color: white;
+	opacity: .7;
+}
+.project1 h3 {
+	font-size: 40px;
+	font-weight: bold;
+	color: black;
+}
+.project2 h3 {
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	opacity: .7;
+}
+.project3 h3 {
+	color: black;
+	font-size: 40px;
+	font-weight: bold;
+}
+.project4 h3 {
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	opacity: .7;
+}
+.project-item h5 {
+	display: block;
+	width: 100%;
+
+}
+.project-item h3:hover {
+	background-position: 50% 50%;
+	font-size: 50px;
+	cursor: pointer;
+}
+.portfolio-text {
+	margin: 0 auto;
+	width: 100%;
+	letter-spacing: 1px;
 }
 .project-item {
 	display: flex;
@@ -199,12 +246,60 @@ li {
 .project2 {
 	background-image: url('../evergreen.jpeg');
 	background-size: 180%;
-	background-position: stretch;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 }
 .project3 {
-	background-image: url('../mentorspace.png');
+	background-image: url('../meeting.jpg');
 	background-size: 180%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+}
+.project4 {
+	background-image: url('../car.jpg');
+	background-size: 180%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+/*Footer Style */
+footer {
+	position: absolute;
+	right: 0;
+	display: inline-block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	margin-top: 15px;
+	padding: 70px 40px;
+	text-align: center;
+	background: #475647;
+}
+.footer-content h4 {
+	margin-bottom: .75em;
+	font-size: 40px;
+	color: white;
+	opacity: .7;
+}
+.footer-content p {
+	display: inline-block;
+	padding: 20px;
+	color: gray;
+}
+.footer-content a {
+	color: white;
+	opacity: .7;
+}
+.icon-label {
+	font-family: 'Amaranth', sans-serif;
+	font-size: 20px;
+}
+.footer-content a:hover {
+	color: #629286;
+}
+
+.footer-content {
+	margin: 0 auto;
+	display: inline-block;
+	font-size: 20px;
+
 }
