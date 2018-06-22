@@ -1,8 +1,9 @@
 body {
 	font-family: 'Amaranth', sans-serif;
 	background:#5F5C58;
-	margin: 0;
+	margin: 0 auto;
 	line-height: 2em;
+
 }
 p {
 	line-height: 2em;
@@ -22,14 +23,7 @@ a {
 	opacity: .7;
 	width: 100%;
 }
-hr {
-	height: 3px;
-	border: 0;
-	width: 70px;
-	margin: 0;
-	margin: 20px 0;
 
-}
 .jumbotron h1 {
 	font-size: 180px;
 	font-weight: bold;
@@ -50,7 +44,7 @@ hr {
 	background-color: #475647;
 	overflow: hidden;
 	padding: 10px;
-	width: 102vw;
+	/*width: 102vw;*/
 }
 .topnav a {
 	float:left;
@@ -133,20 +127,19 @@ div.section, .portfolio-images {
 }
 .about-item h2 {
 	color: white;
-	opacity: .7;
+	
 }
 
 .about-item h5 {
 	font-size: 1.1em;
 	color: white;
-	opacity: .7;
 }
 
 .about-item p {
 	/*margin: 10px auto;*/
 	font-size: 15px;
 	color: white;
-	opacity: .7;
+	
 	
 }
 
@@ -155,7 +148,7 @@ div.section, .portfolio-images {
 	padding-left: 0;
 	margin-bottom: 15px;
 	color: #45827A;
-	margin-right: 20px;
+	/*margin-right: 20px;*/
 	padding-right: 0;
 	
 
@@ -186,10 +179,13 @@ li {
 	height: auto;
 	width: 22em;
 	opacity: .9;
-	margin: 0 auto;
 	-webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
     
+    
+}
+.about-container {
+	
 }
 /*Portfolio Items*/
 
@@ -257,7 +253,7 @@ li {
 	display: flex;
 	text-align: center;
 	height: 200px;
-	margin: 10px 0 10px 0;
+	margin: 10px;
 	box-sizing: border-box;
 	align-items: center;
 	flex-grow: 1;
@@ -396,6 +392,9 @@ footer {
 	}
 	#me {
 		padding-left: 40px;
+	}
+	.project-item {
+		margin: 10px 0 10px 0;
 	}
 
 
