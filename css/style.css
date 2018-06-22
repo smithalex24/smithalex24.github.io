@@ -44,7 +44,10 @@ a {
 	background-color: #475647;
 	overflow: hidden;
 	padding: 10px;
-	/*width: 102vw;*/
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	opacity: .8;
 }
 .topnav a {
 	float:left;
