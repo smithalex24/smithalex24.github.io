@@ -233,13 +233,7 @@ li {
 	text-decoration: none;
 
 }
-.project-item:hover {
-	background-size: 200%;
-	cursor: pointer;	
-}
-.project-item {
-	transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
-}
+
 .portfolio-text {
 	margin: 0 auto;
 	width: 100%;
