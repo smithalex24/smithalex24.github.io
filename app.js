@@ -32,3 +32,9 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+window.sr = ScrollReveal({ reset: true });
+sr.reveal('.image', { duration: 800 });
+sr.reveal('.about-item', { duration: 800 });
+sr.reveal('.about-item skills', { duration: 800 });
+sr.reveal('.project-item', { duration: 800 });

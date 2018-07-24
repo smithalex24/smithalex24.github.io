@@ -1,6 +1,6 @@
 body {
 	font-family: 'Amaranth', sans-serif;
-	background:#5F5C58;
+	background: none;
 	margin: 0 auto;
 	line-height: 2em;
 
@@ -14,54 +14,52 @@ a {
 }
 
 .jumbotron {
-	background-image: url('../flower.jpg');
+	background-image: url('../smoke.jpg');
 	text-align: center;
-	margin-bottom: 0;
-	background-repeat: no-repeat;
+	margin-bottom: 200px;
+	margin-top: 0;
 	background-size: cover;
-	height: 800px;
-	opacity: .7;
+	background-repeat: no-repeat;
+	height: 1000px;
+
 	width: 100%;
 }
 
 .jumbotron h1 {
-	font-size: 180px;
+	font-size: 110px;
 	font-weight: bold;
 	color: white;
-	opacity: .8;
 	margin-top: 10%;
 	letter-spacing: 8px;
 }
 .jumbotron p {
 	color: white;
-	font-size: 40px;
-	opacity: .7;
+	font-size: 70px;
+	font-weight: bold;
 }	
 
 /*Navbar Style */
 
 .topnav {
-	background-color: #475647;
+	background-color: #3399ff;
 	overflow: hidden;
 	padding: 10px;
 	position: fixed;
-	z-index: 999;
 	width: 100%;
-	opacity: .8;
+	opacity: .5;
+
 }
 .topnav a {
 	float:left;
 	display: block;
-	color: white;
+	color: black;
 	opacity: .7;
 	text-align: center;
 	padding: 14px 16px;
 	font-family: 'Amaranth', sans-serif;
 	justify-content: space-between;
 	font-size: 20px;
-}
-.topnav a:hover {
-	background-color:#405D50;
+
 }
 .treelogo {
 	height: 50px;
@@ -69,7 +67,7 @@ a {
 	padding: none;
 }
 .active {
-	background-color:#626262;
+	background-color:#3399ff;
 	color: white;
 }
 .topnav .icon {
@@ -86,7 +84,10 @@ a {
 		font-size: 60px;
 	}
 	.jumbotron {
-		height: 400px;
+		height: 600px;
+	}
+	.jumbotron p {
+		font-size: 40px;
 	}
 }
 @media screen and (max-width: 600px) {
@@ -114,11 +115,15 @@ div.section, .portfolio-images {
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: stretch;
-	margin: 0 auto;
+	
+
 }
 
 .flex-grid.nowrap {
 	flex-wrap: nowrap;
+}
+.flex-grid.nowrap.skills {
+	align-items: center;
 }
 /*About Styling */
 
@@ -126,22 +131,25 @@ div.section, .portfolio-images {
 	
 	flex-grow: 1;
 	align-self: top;
+	float: center;
+	padding: 10px;
+	margin-bottom: 200px;
 
 }
 .about-item h2 {
-	color: white;
+	color: #3399ff;
 	
 }
 
 .about-item h5 {
 	font-size: 1.1em;
-	color: white;
+	color: #3399ff;
 }
 
 .about-item p {
 	/*margin: 10px auto;*/
 	font-size: 15px;
-	color: white;
+	color: black;
 	
 	
 }
@@ -150,7 +158,7 @@ div.section, .portfolio-images {
 	list-style: none;
 	padding-left: 0;
 	margin-bottom: 15px;
-	color: #45827A;
+	color:black;
 	/*margin-right: 20px;*/
 	padding-right: 0;
 	
@@ -164,8 +172,7 @@ li {
 }
 
 .about-item.skills {
-	padding: 20px;
-	
+	/*padding: 10px;*/
 	min-width: 25%;
 }
 
@@ -174,17 +181,16 @@ li {
 	
 
 }
-.headshot {
-	text-align: center;
-}
+
 
 #me {
 	height: auto;
-	width: 22em;
+	width: 30vw;
 	opacity: .9;
 	-webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
-    margin: 0 auto;    
+    border-radius: 10px;
+    
 }
 
 /*Portfolio Items*/
@@ -255,19 +261,21 @@ li {
 	display: flex;
 	text-align: center;
 	height: 200px;
-	margin: 10px;
 	box-sizing: border-box;
 	align-items: center;
 	flex-grow: 1;
 	min-width: 400px;
 	border-radius: 20px;
-	border: 4px solid gray;
+	border: 4px solid #3399ff;
+	margin: 10px;
+	
 }
 .project1 {
 	background-image: url('../map.jpg');
 	background-size: 180%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+
 }
 .project2 {
 	background-image: url('../evergreen.jpeg');
@@ -297,13 +305,13 @@ footer {
 	margin-top: 15px;
 	padding: 70px 40px;
 	text-align: center;
-	background: #475647;
+	background: #3399ff;
 }
 .footer-content h4 {
 	margin-bottom: .75em;
 	font-size: 40px;
 	color: white;
-	opacity: .7;
+	
 }
 .footer-content p {
 	display: inline-block;
@@ -372,8 +380,10 @@ footer {
 /* Mobile */
 
 @media all and (max-width: 400px){
-	.project-item .portfolio-text {
-		padding: 50px;
+	.project-item{
+		min-width: 300px;
+		margin-top: 10px;
+		
 	}
 	.project-item h3 {
 		font-size: 2em;
@@ -392,10 +402,14 @@ footer {
 		text-align: center;
 	}
 	#me {
-		padding-left: 40px;
+		width: 80vw;
+	
 	}
-	.project-item {
-		margin: 10px 0 10px 0;
+	.jumbotron h1 {
+		font-size: 50px;
+	}
+	.jubotron p {
+		font-size: 40px;
 	}
 
 
