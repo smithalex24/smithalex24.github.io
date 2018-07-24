@@ -184,12 +184,9 @@ li {
 	opacity: .9;
 	-webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
-    
-    
+    margin: 0 auto;    
 }
-.about-container {
-	
-}
+
 /*Portfolio Items*/
 
 #featured-projects h2, #featured-projects hr {
