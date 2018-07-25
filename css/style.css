@@ -15,21 +15,15 @@ a {
 #arrow1 {
 	height: 50px;
 	width: 60px;
-	margin-left: 15%;
+	margin-right: 350px;
 	opacity: .8;
 }
-#arrow2 {
-	height: 50px;
-	width: 60px;
-	margin-left: 80%;
-	opacity: .8;
 
-}
 
 .jumbotron {
-	background-image: url('../plant.jpeg');
-	text-align: left;
-	margin-bottom: 400px;
+	background-image: url('../blossom.jpg');
+	text-align: right;
+	margin-bottom: 300px;
 	margin-top: 0;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -40,16 +34,18 @@ a {
 }
 
 .jumbotron h1 {
-	font-size: 110px;
+	font-size: 140px;
 	font-weight: bold;
-	color: #626262;
-	margin-top: 15%;
+	color: white;
+	margin-top: 5%;
 	letter-spacing: 8px;
+	margin-right: 150px;
 }
 .jumbotron p {
-	color: #626262;
-	font-size: 70px;
+	color: white ;
+	font-size: 50px;
 	font-weight: bold;
+	margin-right: 150px;
 }
 .welcome-text h1{
 	font-size: 90px;
@@ -155,7 +151,7 @@ div.section, .portfolio-images {
 	align-self: top;
 	float: center;
 	padding: 10px;
-	margin-bottom: 500px;
+	margin-bottom: 50px;
 	margin-left: -150px;
 
 }
@@ -184,7 +180,7 @@ div.section, .portfolio-images {
 	padding-left: 0;
 	margin-bottom: 15px;
 	color: white;
-	margin-left: 150px;
+	margin-left: 200px;
 	padding-right: 0;
 	
 
@@ -199,8 +195,8 @@ li {
 .about-item.skills {
 	padding: 10px;
 	min-width: 25%;
-	margin-left: -100px;
-	margin-bottom: 500px;
+	margin-left: -50px;
+	margin-bottom: 200px;
 }
 
 .flex-grid.nowrap.skills {
@@ -209,11 +205,7 @@ li {
 	
 
 }
-.skills-header h1{
-	color: #5E9071;
-	margin-left: 12px;
-	font-size: 50px;
-}
+
 
 
 
@@ -299,6 +291,9 @@ li {
 	font-weight: 900;
 
 }
+#featured-projects {
+	margin-bottom: 200px;
+}
 
 .project-item {
 	display: flex;
@@ -311,6 +306,7 @@ li {
 	border-radius: 20px;
 	/*border: 6px solid white;*/
 	margin: 10px;
+
 	
 }
 .project1 {
@@ -347,7 +343,7 @@ footer {
 	padding: 70px 40px;
 	text-align: center;
 	background: #5E9071;
-	margin-left: -220px;
+	margin-left: 0;
 	opacity: .8;
 
 }
@@ -491,13 +487,17 @@ footer {
 	.jumbotron h1 {
 		font-size: 50px;
 		margin-top: 100px;
+		margin-left: 200px;
 	}
 	.jumbotron p {
-		font-size: 40px;
+		font-size: 30px;
+		margin-left: 200px;
+		line-height: 40px;
+		flex-wrap:nowrap;
 	}
 	.jumbotron {
-		background-size: 100% 70%;
-		height: 600px;
+		background-size: 100% 100%;
+		height: 700px;
 		width: 100%;
 	}
 	#me {
@@ -519,10 +519,10 @@ footer {
 	}
 	#arrow1 {
 		margin-top: -50px;
+		margin-left: 250px;
+
 	}
-	#arrow2 {
-		margin-left: 300px;
-	}
+	
 
 }
 
