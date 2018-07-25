@@ -1,6 +1,6 @@
 body {
 	font-family: 'Amaranth', sans-serif;
-	background: #7FA292;
+	background: #626262;
 	margin: 0 auto;
 	line-height: 2em;
 
@@ -29,20 +29,26 @@ a {
 .jumbotron h1 {
 	font-size: 110px;
 	font-weight: bold;
-	color: #3D5A41;
-	margin-top: 10%;
+	color: #626262;
+	margin-top: 15%;
 	letter-spacing: 8px;
 }
 .jumbotron p {
-	color: #3D5A41;
+	color: #626262;
 	font-size: 70px;
 	font-weight: bold;
+}
+.welcome-text h1{
+	font-size: 90px;
+	text-align: center;
+	color: #5E9071;
+	margin-bottom: 100px;
 }	
 
 /*Navbar Style */
 
 .topnav {
-	background-color: gray;
+	background-color: #5E9071;
 	overflow: hidden;
 	padding: 10px;
 	position: fixed;
@@ -140,20 +146,20 @@ div.section, .portfolio-images {
 
 }
 .about-item h2 {
-	color: white;
-	font-size: 50px;
+	color: #5E9071;
+	font-size: 45px;
 }
 
 .about-item h5 {
 	font-size: 1.1em;
-	color: white;
+	color: #5E9071;
 	margin-left: 150px;
 }
 
 .about-item p {
 	/*margin: 10px auto;*/
 	font-size: 15px;
-	color: #3D5A41;
+	color: white;
 	
 	
 }
@@ -162,7 +168,7 @@ div.section, .portfolio-images {
 	list-style: none;
 	padding-left: 0;
 	margin-bottom: 15px;
-	color:#3D5A41;
+	color: white;
 	margin-left: 150px;
 	padding-right: 0;
 	
@@ -178,7 +184,7 @@ li {
 .about-item.skills {
 	padding: 10px;
 	min-width: 25%;
-	padding: 20px;
+	margin-left: -100px;
 }
 
 .flex-grid.nowrap.skills {
@@ -187,6 +193,10 @@ li {
 	
 
 }
+.skills-header {
+	color: #5E9071;
+}
+
 
 
 
@@ -209,11 +219,11 @@ li {
 
 /*Portfolio Items*/
 
-#featured-projects h2, #featured-projects hr {
+#featured-projects h2, #featured-projects hr, .skills-header hr {
 	margin-left: 15px;
 }
 #featured-projects h2 {
-	color: white;
+	color: #5E9071;
 	font-size: 40px;
 	
 }
@@ -318,7 +328,7 @@ footer {
 	margin-top: 15px;
 	padding: 70px 40px;
 	text-align: center;
-	background: gray;
+	background: #5E9071;
 	margin-left: -220px;
 	opacity: .8;
 
@@ -391,6 +401,41 @@ footer {
 	}
 	.about-item p {
 		font-size: 15px;
+		margin-left: 160px;
+	}
+	.about-item h2 {
+		font-size: 30px;
+		margin-left: 160px;
+	}
+	.about-item hr {
+		margin-left: 160px;
+	}
+	.skills-header hr {
+		width: 95%;
+	}
+	.skills-header h1 {
+		margin-left: 20px;
+		font-size: 40px;
+	}
+	.about-item.skills {
+		margin-left: -120px;
+	}
+	#me {
+		margin-left: 250px;
+		width: 50vw;
+		margin-bottom: 50px;
+	}
+	footer {
+		margin-left: 0;
+	}
+	.jumbotron h1 {
+		font-size: 80px;
+	}
+	.jumbotron p {
+		font-size: 50px;
+	}
+	.jumbotron {
+		background-size: 100% 100%;
 	}
 
 /* Mobile */
@@ -447,6 +492,9 @@ footer {
 	a {
 		font-size: 40px;
 		font-weight: 600px;
+	}
+	.about-item.skills {
+		margin-left: -135px;
 	}
 
 }
