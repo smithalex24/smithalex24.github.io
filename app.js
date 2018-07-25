@@ -33,6 +33,7 @@ $(document).ready(function(){
   });
 });
 
+
 window.sr = ScrollReveal({ reset: true });
 sr.reveal('.image', { duration: 800 });
 sr.reveal('.about-item', { duration: 800 });
