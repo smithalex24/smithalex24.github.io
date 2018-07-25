@@ -12,18 +12,31 @@ a {
 	text-decoration: none;
 	font-weight: 900;
 }
+#arrow1 {
+	height: 50px;
+	width: 60px;
+	margin-left: 15%;
+	opacity: .8;
+}
+#arrow2 {
+	height: 50px;
+	width: 60px;
+	margin-left: 80%;
+	opacity: .8;
+
+}
 
 .jumbotron {
 	background-image: url('../plant.jpeg');
 	text-align: left;
-	margin-bottom: 200px;
+	margin-bottom: 400px;
 	margin-top: 0;
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 1000px;
 	background-attachment: fixed;
 	width: 100%;
-	background-color: #7FA292;
+	background-color: #626262;
 }
 
 .jumbotron h1 {
@@ -54,6 +67,7 @@ a {
 	position: fixed;
 	width: 100%;
 	opacity: .5;
+	z-index: 999;
 
 }
 .topnav a {
@@ -141,7 +155,7 @@ div.section, .portfolio-images {
 	align-self: top;
 	float: center;
 	padding: 10px;
-	margin-bottom: 100px;
+	margin-bottom: 500px;
 	margin-left: -150px;
 
 }
@@ -160,6 +174,7 @@ div.section, .portfolio-images {
 	/*margin: 10px auto;*/
 	font-size: 15px;
 	color: white;
+
 	
 	
 }
@@ -185,6 +200,7 @@ li {
 	padding: 10px;
 	min-width: 25%;
 	margin-left: -100px;
+	margin-bottom: 500px;
 }
 
 .flex-grid.nowrap.skills {
@@ -193,8 +209,10 @@ li {
 	
 
 }
-.skills-header {
+.skills-header h1{
 	color: #5E9071;
+	margin-left: 12px;
+	font-size: 50px;
 }
 
 
@@ -224,7 +242,7 @@ li {
 }
 #featured-projects h2 {
 	color: #5E9071;
-	font-size: 40px;
+	font-size: 50px;
 	
 }
 .project1 h3 {
@@ -460,8 +478,11 @@ footer {
 	.about-item h2 {
 		text-align: center;
 	}
-	#featured-projects h2 {
+	#featured-projects h2, .skills-header h1 {
 		text-align: center;
+	}
+	.welcome-text h1 {
+		font-size: 70px;
 	}
 	#me {
 		width: 80vw;
@@ -495,6 +516,12 @@ footer {
 	}
 	.about-item.skills {
 		margin-left: -135px;
+	}
+	#arrow1 {
+		margin-top: -50px;
+	}
+	#arrow2 {
+		margin-left: 300px;
 	}
 
 }
