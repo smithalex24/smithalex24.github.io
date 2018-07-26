@@ -1,5 +1,5 @@
 body {
-	font-family: 'Amaranth', sans-serif;
+	font-family: 'Nixie One', cursive;
 	background: #626262;
 	margin: 0 auto;
 	line-height: 2em;
@@ -52,6 +52,7 @@ a {
 	text-align: center;
 	color: #5E9071;
 	margin-bottom: 100px;
+	font-weight: bold;
 }	
 
 /*Navbar Style */
@@ -73,7 +74,7 @@ a {
 	opacity: .7;
 	text-align: center;
 	padding: 14px 16px;
-	font-family: 'Amaranth', sans-serif;
+	font-family: 'Nixie One', cursive;
 	justify-content: space-between;
 	font-size: 20px;
 
