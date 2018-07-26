@@ -39,3 +39,6 @@ sr.reveal('.image', { duration: 800 });
 sr.reveal('.about-item', { duration: 800 });
 sr.reveal('.about-item skills', { duration: 800 });
 sr.reveal('.project-item', { duration: 800 });
+
+
+(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)

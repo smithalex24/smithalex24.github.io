@@ -1,3 +1,13 @@
+.no-js {
+ visibility: hidden;
+ opacity: 0;
+}
+
+.js {
+ visibility: visible;
+ opacity: 1;
+}
+
 body {
 	font-family: 'Nixie One', cursive;
 	background: #626262;
