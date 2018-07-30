@@ -480,9 +480,11 @@ footer {
 		justify-content: flex-start;
 		text-align: center;
 		margin-left: 150px;
+		font-size: 10px;
 	}
 	.about-item h2 {
 		text-align: center;
+		font-size: .9em;
 	}
 	#featured-projects h2, .skills-header h1 {
 		text-align: center;
@@ -526,6 +528,7 @@ footer {
 	}
 	.about-item.skills h5 {
 		margin-left: 198px;
+		font-size:;
 
 	}
 	.about-item.skills {
