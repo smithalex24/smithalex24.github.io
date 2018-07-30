@@ -480,7 +480,7 @@ footer {
 		justify-content: flex-start;
 		text-align: center;
 		margin-left: 150px;
-		font-size: 10px;
+		font-size: 15px;
 	}
 	.about-item h2 {
 		text-align: center;
@@ -535,7 +535,9 @@ footer {
 		margin-left: -180px;
 		padding:;
 	}
-
+	li {
+		font-size: .9em;
+	}
 	
 
 }
