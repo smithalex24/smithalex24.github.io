@@ -530,6 +530,7 @@ footer {
 	.about-item.skills h5 {
 		margin-left: 140px;
 		font-size: 13px;
+		font-weight: bold;
 
 	}
 	.about-item.skills li {
