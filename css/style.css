@@ -225,8 +225,8 @@ li {
 	height: auto;
 	width: 30vw;
 	opacity: .9;
-	-webkit-filter: grayscale(100%); 
-    filter: grayscale(100%);
+	/*-webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);*/
     border-radius: 10px;
     padding: none;
     margin-right: 0;
@@ -243,10 +243,9 @@ li {
 #featured-projects h2, #featured-projects hr, .skills-header hr {
 	margin-left: 15px;
 }
-#featured-projects h2 {
+#featured-projects h2, #current-projects h2 {
 	color: #5E9071;
 	font-size: 50px;
-	
 }
 .project1 h3 {
 	font-size: 40px;
@@ -350,7 +349,7 @@ footer {
 	position: absolute;
 	display: inline-block;
 	width: 100%;
-	margin-top: 15px;
+	margin-top: 100px;
 	padding: 70px 40px;
 	text-align: center;
 	background: #5E9071;
