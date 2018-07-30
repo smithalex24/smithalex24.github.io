@@ -508,7 +508,8 @@ footer {
 		margin-top: 50px;
 	}
 	.jumbotron {
-		background-size: 100% 50%;
+		background-size: 100%;
+		background-position: fixed;
 		height: 700px;
 		width: 100%;
 	}
