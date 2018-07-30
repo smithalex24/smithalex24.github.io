@@ -490,7 +490,7 @@ footer {
 		text-align: center;
 	}
 	.welcome-text h1 {
-		font-size: 70px;
+		font-size: 60px;
 	}
 	#me {
 		width: 80vw;
@@ -508,7 +508,7 @@ footer {
 		margin-top: 50px;
 	}
 	.jumbotron {
-		background-size: 100% 90%;
+		background-size: 100% 70%;
 		height: 700px;
 		width: 100%;
 	}
@@ -527,13 +527,13 @@ footer {
 		font-weight: 600px;
 	}
 	.about-item.skills h5 {
-		margin-left: 198px;
-		font-size:;
+		margin-left: 140px;
+		font-size: 13px;
 
 	}
-	.about-item.skills {
-		margin-left: -180px;
-		padding:;
+	.about-item.skills li {
+		margin-left: -10px;
+		
 	}
 	li {
 		font-size: .9em;
