@@ -13,6 +13,7 @@ body {
 	background: #626262;
 	margin: 0 auto;
 	line-height: 2em;
+	resize: both;
 
 }
 p {
@@ -302,6 +303,23 @@ li {
 	font-weight: 900;
 
 }
+.project5 h5 {
+	color: white;
+	font-size: 20px;
+	font-weight: 900;
+}
+.project5 h3 {
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+}
+.project5 a {
+	font-size: 20px;
+	color: white;
+}
+.project5 a:hover {
+	color:#5E9071 ;
+}
 #featured-projects {
 	margin-bottom: 200px;
 }
@@ -344,6 +362,13 @@ li {
 	background-size: 180%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+}
+.project5 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../moonlogo.jpeg');
+	background-size: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+
 }
 /*Footer Style */
 footer {
@@ -498,20 +523,21 @@ footer {
 	
 	}
 	.jumbotron h1 {
-		font-size: 60px;
+		font-size: 50px;
 		margin-top: 100px;
-		text-align: left;
+		text-align: center
 	}
 	.jumbotron p {
-		font-size: 40px;
+		font-size: 30px;
 		line-height: 40px;
-		text-align: left;
+		
 		margin-top: 50px;
+		
 	}
 	.jumbotron {
-		background-size: 50%;
+		background-size: 100% 70%;
 		background-position: cover;
-		height: 700px;
+		height: 500px;
 		width: 100%;
 	}
 	#me {
