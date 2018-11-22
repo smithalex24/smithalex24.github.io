@@ -9,7 +9,7 @@
 }
 
 body {
-	font-family: 'Nixie One', cursive;
+	font-family: 'Montserrat', sans-serif;
 	background: #626262;
 	margin: 0 auto;
 	line-height: 2em;
@@ -32,7 +32,7 @@ a {
 
 
 .jumbotron {
-	background-image: url('../succulent.jpeg');
+	background-image: url('../newsucculent.jpeg');
 	text-align: center;
 	margin-bottom: 100px;
 	margin-top: 0;
@@ -46,7 +46,6 @@ a {
 
 .jumbotron h1 {
 	font-size: 160px;
-	font-weight: bold;
 	color: white;
 	margin-top: 100px;
 	width: 100%;
@@ -90,7 +89,7 @@ a {
 	opacity: .7;
 	text-align: center;
 	padding: 14px 16px;
-	font-family: 'Nixie One', cursive;
+	font-family: 'Montserrat', sans-serif;
 	justify-content: space-between;
 	font-size: 20px;
 
