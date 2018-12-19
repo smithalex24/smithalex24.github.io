@@ -385,6 +385,7 @@ footer {
 	background: #5E9071;
 	margin-left: 0;
 	opacity: .8;
+	font-family: 'Montserrat', sans-serif;
 
 }
 .footer-content h4 {
@@ -403,7 +404,7 @@ footer {
 	opacity: .7;
 }
 .icon-label {
-	font-family: 'Amaranth', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 }
 .footer-content a:hover {
