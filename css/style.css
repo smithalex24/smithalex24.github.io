@@ -426,6 +426,9 @@ footer {
 	.about-item{
 		margin-left: 80px;
 	}
+	.jumbotron {
+		height: 1000px;
+	}
 }
 /*Medium Screen */
 
